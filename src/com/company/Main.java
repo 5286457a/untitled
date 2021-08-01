@@ -9,7 +9,7 @@ public class Main {
 
     public static void main(String[] args) throws NoSuchMethodException, InvocationTargetException, IllegalAccessException {
         List<Integer> list = new ArrayList<>();
-        list.add(6);
+        list.add(5);
 
         Class<? extends List> clazz = list.getClass();
         Method add = clazz.getDeclaredMethod("add", Object.class);
