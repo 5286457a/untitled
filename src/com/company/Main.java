@@ -11,6 +11,7 @@ public class Main {
         List<Integer> list = new ArrayList<>();
         list.add(51);
         list.add(list.get(0) * 2);
+        list.add(list.get(0) * 2);
 
         Class<? extends List> clazz = list.getClass();
         Method add = clazz.getDeclaredMethod("add", Object.class);
