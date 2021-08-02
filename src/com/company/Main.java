@@ -13,7 +13,7 @@ public class Main {
 
         Class<? extends List> clazz = list.getClass();
         Method add = clazz.getDeclaredMethod("add", Object.class);
-        add.invoke(list , "sss");
+        add.invoke(list , "hello");
 
         System.out.println(list);
 
