@@ -20,9 +20,11 @@ public class Main {
 
         Integer[] nums = {1,2,3};
         String[] strs = {"A","B","C"};
+        Double[] dous = {2.3,4.5,3.13};
         printArray(nums);
 
         printArray(strs);
+        printArray(dous);
 
     }
 
