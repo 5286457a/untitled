@@ -26,6 +26,8 @@ public class Main {
         printArray(strs);
         printArray(dous);
 
+        System.out.println("s");
+
     }
 
     public static <E> void printArray(E[] inputArray) {
